@@ -1,0 +1,2 @@
+# Desktop frontend; terminal mode uses the Python standard library only.
+pygame-ce>=2.5.8,<3

@@ -1,0 +1,30 @@
+# Python and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local tooling, editor state and operating-system metadata
+.qa/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+*.tmp
+*.log
+logs/
+
+# Private player progress, recovery backups and future active exams
+ite184_study_game/data/*.json
+ite184_study_game/data/*.tmp
+
+# Generated developer previews (public screenshots/ remains included)
+ite184_study_game/artifacts/
+
+# Optional future packaging output
+build/
+dist/
